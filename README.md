@@ -32,7 +32,7 @@ This Python script demonstrates how to convert an image into an audio story usin
 3. Configure API token:
    - Create a `.env` file in the root directory and add your Hugging Face API token:
      ```
-     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=your_huggingface_api_token_here
+     'your_huggingface_api_token_here'=your_huggingface_api_token_here
      ```
 
 4. Run the script:
