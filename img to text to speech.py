@@ -11,7 +11,7 @@ from PIL import Image
 import os
 
 load_dotenv(find_dotenv())
-HUGGINGFACEHUB_API_TOKEN = os.getenv("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")
+HUGGINGFACEHUB_API_TOKEN = os.getenv('your_huggingface_api_token_here')
 
 def img2text(image_path):
     image_to_text = pipeline("image-to-text", model="Salesforce/blip-image-captioning-base")
